@@ -26,6 +26,16 @@
         android:layout_marginBottom="32dp" />
 
     <!-- Rank List -->
+    <Button
+        android:id="@+id/btn_playWithFriends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="32dp"
+        android:text="PLAY WITH FRIENDS"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
     <ListView
         android:id="@+id/lv_rank_list"
         android:layout_width="match_parent"
