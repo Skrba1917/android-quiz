@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- Left Column Container -->
+    <LinearLayout
+        android:id="@+id/left_column_container"
+        android:layout_width="0dp"
+        android:layout_height="480dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- Left Column Fields -->
+        <TextView
+            android:id="@+id/left_field_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iron Maiden" />
+
+        <TextView
+            android:id="@+id/left_field_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ozzy Osbourne" />
+
+        <TextView
+            android:id="@+id/left_field_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dokken" />
+
+        <TextView
+            android:id="@+id/left_field_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hardline" />
+
+        <TextView
+            android:id="@+id/left_field_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skidrow" />
+
+    </LinearLayout>
+
+    <!-- Right Column Container -->
+    <LinearLayout
+        android:id="@+id/right_column_container"
+        android:layout_width="0dp"
+        android:layout_height="480dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- Right Column Fields -->
+        <TextView
+            android:id="@+id/right_field_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="The Ultimate Sin" />
+
+        <TextView
+            android:id="@+id/right_field_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Slave to the Grind" />
+
+        <TextView
+            android:id="@+id/right_field_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Under lock and key" />
+
+        <TextView
+            android:id="@+id/right_field_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Somewhere in Time" />
+
+        <TextView
+            android:id="@+id/right_field_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Double Eclipse" />
+
+        <Button
+            android:id="@+id/btn_nextGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:text="Next Game"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
