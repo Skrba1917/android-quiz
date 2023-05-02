@@ -6,10 +6,16 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/skocko3_icon_round"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.Androidquiz">
+        <activity
+            android:name=".FifthGameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FourthGameActivity"
+            android:exported="false" />
         <activity
             android:name=".ThirdGameActivity"
             android:exported="false" />

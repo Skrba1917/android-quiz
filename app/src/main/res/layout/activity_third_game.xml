@@ -195,6 +195,14 @@
             android:hint="Final Result"
             android:inputType="text"
             android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_nextGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:text="Next Game"
+            android:textSize="20sp" />
     </RelativeLayout>
 
 
