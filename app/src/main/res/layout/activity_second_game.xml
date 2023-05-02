@@ -9,36 +9,36 @@
     <LinearLayout
         android:id="@+id/left_column_container"
         android:layout_width="0dp"
-        android:layout_height="480dp"
+        android:layout_height="596dp"
         android:layout_weight="1"
         android:orientation="vertical">
 
         <!-- Left Column Fields -->
-        <TextView
+        <Button
             android:id="@+id/left_field_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Iron Maiden" />
 
-        <TextView
+        <Button
             android:id="@+id/left_field_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Ozzy Osbourne" />
 
-        <TextView
+        <Button
             android:id="@+id/left_field_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Dokken" />
 
-        <TextView
+        <Button
             android:id="@+id/left_field_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Hardline" />
 
-        <TextView
+        <Button
             android:id="@+id/left_field_5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -50,12 +50,12 @@
     <LinearLayout
         android:id="@+id/right_column_container"
         android:layout_width="0dp"
-        android:layout_height="480dp"
+        android:layout_height="598dp"
         android:layout_weight="1"
         android:orientation="vertical">
 
         <!-- Right Column Fields -->
-        <TextView
+        <Button
             android:id="@+id/right_field_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -63,31 +63,31 @@
             android:focusable="true"
             android:text="The Ultimate Sin" />
 
-        <TextView
+        <Button
             android:id="@+id/right_field_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:focusable="true"
-            android:text="Slave to the Grind" />
+            android:text="Road Kill" />
 
-        <TextView
+        <Button
             android:id="@+id/right_field_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:focusable="true"
-            android:text="Under lock and key" />
+            android:text="Tooth and Nail" />
 
-        <TextView
+        <Button
             android:id="@+id/right_field_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:focusable="true"
-            android:text="Somewhere in Time" />
+            android:text="Killers" />
 
-        <TextView
+        <Button
             android:id="@+id/right_field_5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -97,7 +97,7 @@
 
         <Button
             android:id="@+id/btn_nextGame"
-            android:layout_width="match_parent"
+            android:layout_width="177dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="200dp"
             android:text="Next Game"
