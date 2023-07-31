@@ -25,49 +25,56 @@
         >
 
         <ImageView
+            android:id="@+id/imageView1"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:scaleType="centerCrop"
             android:background="@color/gray"
-            android:src="@drawable/pik_icon" />
+             />
 
         <ImageView
+            android:id="@+id/imageView2"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:scaleType="centerCrop"
             android:background="@color/gray"
-            android:src="@drawable/skocko3_icon" />
+             />
 
         <ImageView
+            android:id="@+id/imageView3"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:background="@color/gray"
             android:scaleType="centerCrop"
-            android:src="@drawable/zvezda_icon" />
+           />
 
         <ImageView
+            android:id="@+id/imageView4"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:background="@color/gray"
             android:scaleType="centerCrop"
-            android:src="@drawable/karo_icon" />
+             />
 
         <com.google.android.material.button.MaterialButton
+
             style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             app:cornerRadius="30dp"
-            android:backgroundTint="@color/red"
+            android:id="@+id/btn1"
+
+
             />
 
 
@@ -79,7 +86,8 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             app:cornerRadius="30dp"
-            android:backgroundTint="@color/red"
+            android:id="@+id/btn2"
+
 
            />
         <com.google.android.material.button.MaterialButton
@@ -89,7 +97,8 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             app:cornerRadius="30dp"
-            android:backgroundTint="@color/yellow"
+            android:id="@+id/btn3"
+
 
            />
         <com.google.android.material.button.MaterialButton
@@ -99,10 +108,12 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             app:cornerRadius="30dp"
+            android:id="@+id/btn4"
 
 
           />
         <ImageView
+            android:id="@+id/imageView5"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -112,6 +123,7 @@
             />
 
         <ImageView
+            android:id="@+id/imageView6"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -121,6 +133,7 @@
              />
 
         <ImageView
+            android:id="@+id/imageView7"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -130,6 +143,7 @@
              />
 
         <ImageView
+            android:id="@+id/imageView8"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -145,6 +159,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             app:cornerRadius="30dp"
+            android:id="@+id/btn5"
 
             />
 
@@ -157,6 +172,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             app:cornerRadius="30dp"
+            android:id="@+id/btn6"
 
            />
         <com.google.android.material.button.MaterialButton
@@ -166,6 +182,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             app:cornerRadius="30dp"
+            android:id="@+id/btn7"
 
             />
         <com.google.android.material.button.MaterialButton
@@ -175,9 +192,11 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             app:cornerRadius="30dp"
+            android:id="@+id/btn8"
 
             />
         <ImageView
+            android:id="@+id/imageView9"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -187,6 +206,7 @@
             />
 
         <ImageView
+            android:id="@+id/imageView10"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -196,6 +216,7 @@
              />
 
         <ImageView
+            android:id="@+id/imageView11"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -205,6 +226,7 @@
             />
 
         <ImageView
+            android:id="@+id/imageView12"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -220,7 +242,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             app:cornerRadius="30dp"
-
+            android:id="@+id/btn9"
             />
 
 
@@ -232,6 +254,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             app:cornerRadius="30dp"
+            android:id="@+id/btn10"
 
            />
         <com.google.android.material.button.MaterialButton
@@ -241,6 +264,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             app:cornerRadius="30dp"
+            android:id="@+id/btn11"
 
            />
         <com.google.android.material.button.MaterialButton
@@ -250,9 +274,11 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             app:cornerRadius="30dp"
+            android:id="@+id/btn12"
 
             />
         <ImageView
+            android:id="@+id/imageView13"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -262,6 +288,7 @@
              />
 
         <ImageView
+            android:id="@+id/imageView14"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -271,6 +298,7 @@
             />
 
         <ImageView
+            android:id="@+id/imageView15"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -280,6 +308,7 @@
             />
 
         <ImageView
+            android:id="@+id/imageView16"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/gray"
@@ -295,6 +324,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             app:cornerRadius="30dp"
+            android:id="@+id/btn13"
 
             />
 
@@ -307,156 +337,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             app:cornerRadius="30dp"
-
-          />
-        <com.google.android.material.button.MaterialButton
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cornerRadius="30dp"
-
-            />
-        <com.google.android.material.button.MaterialButton
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cornerRadius="30dp"
-
-            />
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:background="@color/gray"
-            android:scaleType="centerCrop"
-           />
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:background="@color/gray"
-            android:layout_rowWeight="1"
-            android:scaleType="centerCrop"
-            />
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:scaleType="centerCrop"
-            android:background="@color/gray"
-             />
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:background="@color/gray"
-            android:scaleType="centerCrop"
-            />
-
-        <com.google.android.material.button.MaterialButton
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cornerRadius="30dp"
-
-           />
-
-
-
-        <com.google.android.material.button.MaterialButton
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cornerRadius="30dp"
-
-            />
-        <com.google.android.material.button.MaterialButton
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cornerRadius="30dp"
-
-            />
-        <com.google.android.material.button.MaterialButton
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cornerRadius="30dp"
-
-           />
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:background="@color/gray"
-            android:scaleType="centerCrop"
-            />
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:background="@color/gray"
-            android:scaleType="centerCrop"
-            />
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:background="@color/gray"
-            android:scaleType="centerCrop"
-             />
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:background="@color/gray"
-            android:layout_rowWeight="1"
-            android:scaleType="centerCrop"
-            />
-
-        <com.google.android.material.button.MaterialButton
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cornerRadius="30dp"
-
-           />
-
-
-
-        <com.google.android.material.button.MaterialButton
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cornerRadius="30dp"
+            android:id="@+id/btn14"
 
           />
         <com.google.android.material.button.MaterialButton
@@ -466,6 +347,173 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             app:cornerRadius="30dp"
+            android:id="@+id/btn15"
+
+            />
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cornerRadius="30dp"
+            android:id="@+id/btn16"
+
+            />
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@color/gray"
+            android:scaleType="centerCrop"
+           />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:background="@color/gray"
+            android:layout_rowWeight="1"
+            android:scaleType="centerCrop"
+            />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:scaleType="centerCrop"
+            android:background="@color/gray"
+             />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@color/gray"
+            android:scaleType="centerCrop"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cornerRadius="30dp"
+            android:id="@+id/btn17"
+
+           />
+
+
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cornerRadius="30dp"
+            android:id="@+id/btn18"
+
+            />
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cornerRadius="30dp"
+            android:id="@+id/btn19"
+
+            />
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cornerRadius="30dp"
+            android:id="@+id/btn20"
+
+           />
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@color/gray"
+            android:scaleType="centerCrop"
+            />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@color/gray"
+            android:scaleType="centerCrop"
+            />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@color/gray"
+            android:scaleType="centerCrop"
+             />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:background="@color/gray"
+            android:layout_rowWeight="1"
+            android:scaleType="centerCrop"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cornerRadius="30dp"
+            android:id="@+id/btn21"
+
+           />
+
+
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cornerRadius="30dp"
+            android:id="@+id/btn22"
+
+          />
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cornerRadius="30dp"
+            android:id="@+id/btn23"
 
            />
         <com.google.android.material.button.MaterialButton
@@ -475,6 +523,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             app:cornerRadius="30dp"
+            android:id="@+id/btn24"
 
            />
     </GridLayout>
@@ -492,6 +541,7 @@
             android:columnOrderPreserved="false"
             >
             <ImageView
+                android:id="@+id/imageViewSolution1"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
@@ -501,6 +551,7 @@
               />
 
             <ImageView
+                android:id="@+id/imageViewSolution2"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
@@ -510,6 +561,7 @@
                 />
 
             <ImageView
+                android:id="@+id/imageViewSolution3"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
@@ -519,6 +571,7 @@
                />
 
             <ImageView
+                android:id="@+id/imageViewSolution4"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
@@ -534,6 +587,7 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 app:cornerRadius="30dp"
+                android:id="@+id/btnSolution1"
 
                />
 
@@ -546,6 +600,7 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 app:cornerRadius="30dp"
+                android:id="@+id/btnSolution2"
 
               />
             <com.google.android.material.button.MaterialButton
@@ -555,6 +610,7 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 app:cornerRadius="30dp"
+                android:id="@+id/btnSolution3"
 
              />
             <com.google.android.material.button.MaterialButton
@@ -564,6 +620,7 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 app:cornerRadius="30dp"
+                android:id="@+id/btnSolution4"
 
                />
         </GridLayout>
@@ -582,6 +639,7 @@
 
 
         <ImageView
+            android:id="@+id/pik"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -590,6 +648,7 @@
             android:src="@drawable/pik_icon" />
 
         <ImageView
+            android:id="@+id/karo"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -598,6 +657,7 @@
             android:src="@drawable/karo_icon" />
 
         <ImageView
+            android:id="@+id/zvezda"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -606,6 +666,7 @@
             android:src="@drawable/zvezda_icon" />
 
         <ImageView
+            android:id="@+id/herc"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -614,6 +675,7 @@
             android:src="@drawable/herc_icon" />
 
         <ImageView
+            android:id="@+id/tref"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -622,6 +684,7 @@
             android:src="@drawable/tref_icon" />
 
         <ImageView
+            android:id="@+id/skocko"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -629,6 +692,7 @@
             android:scaleType="centerCrop"
             android:src="@drawable/skocko3_icon" />
     </GridLayout>
+
         <Button
             android:id="@+id/btn_nextGame"
             android:layout_width="match_parent"
@@ -636,5 +700,27 @@
             android:layout_marginTop="25dp"
             android:text="Next Game"
             android:textSize="20sp" />
+        <TextView
+            android:id="@+id/timerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp"
+            android:layout_marginBottom="0px"
+            android:layout_marginLeft="190dp"
+            android:textColor="#000000"
+            android:text="10" />
+        <TextView
+            android:id="@+id/pointsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp"
+            android:layout_marginBottom="10px"
+            android:layout_marginLeft="110dp"
+            android:textColor="#000000"
+            android:text="Bodovi:" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

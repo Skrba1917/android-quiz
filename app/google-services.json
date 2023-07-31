@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "197457492496",
+    "firebase_url": "https://slagalica-9c18e-default-rtdb.firebaseio.com",
+    "project_id": "slagalica-9c18e",
+    "storage_bucket": "slagalica-9c18e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197457492496:android:d5976a19ad78c3189fe895",
+        "android_client_info": {
+          "package_name": "com.example.androidquiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_YoJWGbsZLi94Dn-2SHhtowXPfePwee4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

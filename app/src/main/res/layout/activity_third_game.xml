@@ -15,13 +15,14 @@
             android:id="@+id/button_submit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
+            android:textSize="9sp"
             android:layout_marginTop="24dp"
             android:layout_marginStart="12dp"
             android:text="A1" />
 
         <Button
             android:id="@+id/button_submit2"
+            android:textSize="9sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/button_submit"
@@ -31,6 +32,7 @@
 
         <Button
             android:id="@+id/button_submit3"
+            android:textSize="9sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/button_submit2"
@@ -40,6 +42,7 @@
 
         <Button
             android:id="@+id/button_submit4"
+            android:textSize="9sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/button_submit3"
@@ -47,17 +50,30 @@
             android:layout_marginStart="12dp"
             android:text="A4" />
 
-        <Button
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/button_resultA"
-            android:layout_width="wrap_content"
+            android:textSize="9sp"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:layout_below="@id/button_submit3"
             android:layout_marginTop="85dp"
             android:layout_marginStart="12dp"
-            android:text="A" />
+            android:text="A"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <EditText
+                android:id="@+id/solutionEditTextA"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:inputType="text"
+                android:maxLines="1"
+                android:text="A" />
+
+        </com.google.android.material.textfield.TextInputLayout>
 
         <Button
             android:id="@+id/button_submit5"
+            android:textSize="9sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
@@ -67,6 +83,7 @@
 
         <Button
             android:id="@+id/button_submit6"
+            android:textSize="9sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/button_submit5"
@@ -76,6 +93,7 @@
 
         <Button
             android:id="@+id/button_submit7"
+            android:textSize="9sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/button_submit6"
@@ -85,6 +103,7 @@
 
         <Button
             android:id="@+id/button_submit8"
+            android:textSize="9sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/button_submit7"
@@ -92,16 +111,29 @@
           android:layout_marginStart="112dp"     
             android:text="B4" />
 
-        <Button
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/button_resultB"
-            android:layout_width="wrap_content"
+            android:textSize="9sp"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
-            android:layout_below="@id/button_submit3"
+            android:layout_below="@id/button_submit7"
             android:layout_marginTop="85dp"
             android:layout_marginStart="112dp"
-            android:text="B" />
+            android:text="B"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <EditText
+                android:id="@+id/solutionEditTextB"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:inputType="text"
+                android:maxLines="1"
+                android:text="B" />
+
+        </com.google.android.material.textfield.TextInputLayout>
         <Button
             android:id="@+id/button_submit9"
+            android:textSize="9sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
@@ -111,6 +143,7 @@
 
         <Button
             android:id="@+id/button_submit10"
+            android:textSize="9sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/button_submit9"
@@ -120,6 +153,7 @@
 
         <Button
             android:id="@+id/button_submit11"
+            android:textSize="9sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/button_submit10"
@@ -129,6 +163,7 @@
 
         <Button
             android:id="@+id/button_submit12"
+            android:textSize="9sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/button_submit11"
@@ -136,16 +171,29 @@
             android:layout_marginStart="212dp"
             android:text="C4" />
 
-        <Button
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/button_resultC"
-            android:layout_width="wrap_content"
+            android:textSize="9sp"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
-            android:layout_below="@id/button_submit3"
+            android:layout_below="@id/button_submit11"
             android:layout_marginTop="85dp"
             android:layout_marginStart="212dp"
-            android:text="C" />
+            android:text="C"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <EditText
+                android:id="@+id/solutionEditTextC"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:inputType="text"
+                android:maxLines="1"
+                android:text="C" />
+
+        </com.google.android.material.textfield.TextInputLayout>
         <Button
             android:id="@+id/button_submit13"
+            android:textSize="9sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
@@ -155,6 +203,7 @@
 
         <Button
             android:id="@+id/button_submit14"
+            android:textSize="9sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/button_submit13"
@@ -163,6 +212,7 @@
             android:text="D2" />
         <Button
             android:id="@+id/button_submit15"
+            android:textSize="9sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/button_submit14"
@@ -171,6 +221,7 @@
             android:text="D3" />
         <Button
             android:id="@+id/button_submit16"
+            android:textSize="9sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/button_submit15"
@@ -178,17 +229,29 @@
             android:layout_marginStart="312dp"
             android:text="D4" />
 
-        <Button
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/button_resultD"
-            android:layout_width="wrap_content"
+            android:textSize="9sp"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
-            android:layout_below="@id/button_submit3"
+            android:layout_below="@id/button_submit15"
             android:layout_marginTop="85dp"
             android:layout_marginStart="312dp"
-            android:text="D" />
+            android:text="D"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <EditText
+                android:id="@+id/solutionEditTextD"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:inputType="text"
+                android:maxLines="1"
+                android:text="D" />
+
+        </com.google.android.material.textfield.TextInputLayout>
 
         <EditText
-            android:id="@+id/et_finalResult"
+            android:id="@+id/finalResult"
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_marginTop="350dp"
@@ -203,6 +266,16 @@
             android:layout_marginTop="450dp"
             android:text="Next Game"
             android:textSize="20sp" />
+        <TextView
+            android:id="@+id/pointsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp"
+            android:layout_marginBottom="200px"
+            android:textColor="#000000"
+            android:text="Bodovi:" />
     </RelativeLayout>
 
 

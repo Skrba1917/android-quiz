@@ -31,7 +31,7 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     public void openGameActivity() {
-        Intent intent = new Intent(this, FirstGameActivity.class);
+        Intent intent = new Intent(this, ThirdGameActivity.class);
         startActivity(intent);
     }
 
