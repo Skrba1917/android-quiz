@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Target Number Display -->
+    <TextView
+        android:id="@+id/targetNumberTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="24sp"
+        android:gravity="center"/>
+
+    <!-- Stop Button for Target Number -->
+    <Button
+        android:id="@+id/stopTargetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Generated Numbers Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Six Buttons for Generated Numbers -->
+        <Button
+            android:id="@+id/generatedNumber1Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number 1"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/generatedNumber2Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number 2"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/generatedNumber3Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number 3"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/generatedNumber4Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number 4"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/generatedNumber5Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number 5"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/generatedNumber6Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number 6"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Stop Button for Generating Numbers -->
+        <Button
+            android:id="@+id/stopGenerateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generate Numbers"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+
+    <!-- Math Input Field -->
+    <EditText
+        android:id="@+id/mathInputField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=""
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Operand Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/additionButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/subtractionButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/multiplicationButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/divisionButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/leftParenthesisButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="("
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/rightParenthesisButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text=")"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp">
+
+        <!-- ... (your existing operand buttons) -->
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textSize="18sp"/>
+
+        <!-- Timer TextView -->
+        <TextView
+            android:id="@+id/timerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+
+</LinearLayout>
